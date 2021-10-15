@@ -4,7 +4,7 @@ HTML files embedded with [Kopia](https://kopia.io) for use with [OpenBSD](https:
 ### Building
 Archive is built with :
 ```
-VERSION=0.9.1
+VERSION=0.9.2
 ftp https://github.com/kopia/kopia/archive/refs/tags/v${VERSION}.tar.gz
 tar xzf v${VERSION}.tar.gz && cd kopia-${VERSION}
 gmake html-ui REACT_APP_FULL_VERSION_INFO="${VERSION} on `date`" REACT_APP_SHORT_VERSION_INFO="v${VERSION}"
